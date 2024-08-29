@@ -1,20 +1,25 @@
-# CS360
-อธิบายจุดประสงค์โปรเจค
-เพื่อการเรียนรู้ ต่อยอด นำมาปรับใช้ bla bla bla
+# Assignment 1: Manual Cloud-based Web Deployment
 
-## เนื้อหาใน Repository
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
+## Project Overview
 
-## Introduction
+## Table of Contents
 
-This is the introduction section.
+- Project Overview
+- Technologies Used
+- Setup Instructions
+- Deployment Steps
+- Troubleshooting
+- Contributing
+- License
 
-## Features
+## Technologies Used
 
-Details about the features go here.
+## Setup Instructions
 
-## Installation
+## Deployment Steps
 
-Instructions on how to install the software.
+## Troubleshooting
+
+## Contributing
+
+## License
