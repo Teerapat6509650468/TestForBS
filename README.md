@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- Project Overview
-- Technologies Used
-- Setup Instructions
-- Deployment Steps
-- Troubleshooting
-- Contributing
-- License
+- [Project Overview](#project-overview)
+- [Technologies Used](#technologies-used)
+- [Setup Instructions](#setup-instructions)
+- [Deployment Steps](#deployment-steps)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Technologies Used
 
