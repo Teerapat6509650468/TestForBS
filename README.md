@@ -10,6 +10,7 @@
 - [Deployment Steps](#deployment-steps)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
+- [Contracting](#Contracting)
 - [License](#license)
 
 ## Technologies Used
@@ -21,5 +22,7 @@
 ## Troubleshooting
 
 ## Contributing
+
+## Contracting
 
 ## License
