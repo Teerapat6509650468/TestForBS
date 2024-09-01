@@ -23,8 +23,12 @@ https://medium.com/@themaxaboy/%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%
 
 # ส่วนประกอบหลักต่าง ๆ ของ Strapi
 
+**Content Types Builder:** เป็นเครื่องมือที่ใช้งานง่าย ซึ่งช่วยให้เราสามารถกำหนดและจัดโครงสร้างโมเดลข้อมูลสำหรับแอปพลิเคชันได้โดยไม่ต้องเขียนโค้ด มีอินเตอร์เฟซที่เข้าใจง่ายสำหรับการสร้างประเภทเนื้อหาใหม่และปรับแต่งฟิลด์ต่าง ๆ เช่น ข้อความ ตัวเลข วันที่ และสื่อ รวมถึงการกำหนดความสัมพันธ์ระหว่างประเภทเนื้อหาต่าง ๆ คุณสมบัตินี้ช่วยให้เราสามารถสร้างโครงสร้างข้อมูลที่ซับซ้อนได้อย่างง่ายดาย ทำให้เป็นเครื่องมือที่ทรงพลังในการตั้งค่าแบ็กเอนด์ของแอปพลิเคชัน
+
+**Content Manager:** เป็นอินเตอร์เฟซที่ใช้ในการจัดการการบันทึกเนื้อหาจริงตามประเภทเนื้อหาที่เราได้กำหนดไว้ ช่วยให้ผู้ใช้สามารถสร้าง แก้ไข และจัดระเบียบการบันทึกเนื้อหาผ่านอินเตอร์เฟซที่เป็นภาพ ซึ่งมีฟังก์ชันต่าง ๆ เช่น การค้นหา การกรอง และการจัดการสถานะการเผยแพร่ นอกจากนี้ ยังมีการแสดงผลข้อมูลในรูปแบบที่เป็นระเบียบและอิงตามสิทธิ์ของผู้ใช้ ทำให้การจัดการเนื้อหามีประสิทธิภาพและปลอดภัย
+
 ### แหล่งอ้างอิง
-[Strapi APIs to access your content]([https://strapi.io/demo](https://docs.strapi.io/dev-docs/api/content-api))<br>
+[Strapi APIs to access your content](https://docs.strapi.io/dev-docs/api/content-api)<br>
 [Introduction to the Content-type Builder](https://docs.strapi.io/user-docs/content-type-builder)<br>
 [Introduction to the Content Manager](https://docs.strapi.io/user-docs/content-manager)<br>
 [Managing content-types](https://docs.strapi.io/user-docs/content-type-builder/managing-content-types)<br>
