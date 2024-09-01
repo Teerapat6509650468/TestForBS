@@ -31,11 +31,11 @@ https://medium.com/@themaxaboy/%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B9%81%E0%B8%9A%E0%
 
 ## ติดตั้ง Strapi
 **สิ่งที่ต้องติดตั้งก่อนการติดตั้ง Strapi**
-- Node.js v18 หรือ v20 (ในครั้งนี้เราเลือกใช้ v20) ตรวจสอบว่าติดตั้งแล้วโดยใช้คำสั่ง
+- Node.js `v18` หรือ `v20` (ในครั้งนี้เราเลือกใช้ `v20`) ตรวจสอบว่าติดตั้งแล้วโดยใช้คำสั่ง
 ```
 node -v
 ```
-- Node.js package manager ที่ต้องการ (ในที่นี้เราเลือกใช้ npm) ตรวจสอบว่าติดตั้งแล้วโดยใช้คำสั่ง
+- Node.js package manager ที่ต้องการ (ในที่นี้เราเลือกใช้ `npm`) ตรวจสอบว่าติดตั้งแล้วโดยใช้คำสั่ง
 ```
 npm -v
 ```
@@ -43,18 +43,18 @@ npm -v
 
 **ขั้นตอนการสร้างโปรเจคของ Strapi**
 1. เปืด Terminal
-2. cd ไปยังโฟลเดอร์ที่ต้องการ
+2. ใช้คำสั่ง `cd` ไปยังโฟลเดอร์ที่ต้องการ
 3. จากนั้นให้รันคำสั่งต่อไปนี้
 ```
 npx create-strapi-app@latest my-project
 ```
 4. เลือกประเภทการติดตั้ง
-   - Quickstart (recommended) จะใช้ฐานข้อมูลเริ่มต้น (SQLite)
-   - Custom (manual settings) จะเลือกฐานข้อมูลที่ต้องการได้<br>
+   - `Quickstart (recommended)` จะใช้ฐานข้อมูลเริ่มต้น (SQLite)
+   - `Custom (manual settings)` จะเลือกฐานข้อมูลที่ต้องการได้<br>
 
-&nbsp; ในที่นี้เราเลือก "Quickstart (recommended)"
+&nbsp; ในที่นี้เราเลือก `Quickstart (recommended)`
 
-5. จากนั้นจะปรากฏหน้าต่างแสดงว่า Start your 14-day free trial now! ให้เราเลือก Skip
+5. จากนั้นจะปรากฏหน้าต่างแสดงว่า Start your 14-day free trial now! ให้เราเลือก `Skip`
 
 6. จากนั้นให้รันคำสั่งต่อไปนี้<br>
 ```
@@ -71,5 +71,12 @@ npx run develop
 ### แหล่งอ้างอิง
 - [Installing from CLI](https://docs.strapi.io/dev-docs/installation/cli)
 
-## นำโค้ดขึ้นลง GitHub
-
+## นำโค้ดลง GitHub
+1. ในเทอร์มินัล ตรวจสอบว่ายังคงอยู่ในโฟลเดอร์ของโปรเจ็กต์ Strapi ที่เราสร้างขึ้น
+2. เรียกใช้คำสั่ง `git init` เพื่อเริ่มต้น git สำหรับโฟลเดอร์นี้
+3. เรียกใช้คำสั่ง `git add .` เพื่อเพิ่มไฟล์ที่แก้ไขทั้งหมดลงใน git
+4. เรียกใช้คำสั่ง `git commit -m "Initial commit"` เพื่อสร้างคอมมิตที่มีการเปลี่ยนแปลงที่เพิ่มเข้ามาทั้งหมด
+5. เข้าสู่ระบบบัญชี GitHub ของคุณและสร้าง repository ใหม่
+6. กลับไปที่เทอร์มินัลและ push local repository ในเครื่องเราลง GitHub:
+   a. เรียกใช้คำสั่งที่คล้ายกับต่อไปนี้: `git remote add origin https://github.com/Teerapat6509650468/CS360-Strapi-6509650468.git`
+   b. รันคำสั่ง `git push --set-upstream origin main` เพื่อส่งการคอมมิตไปยัง repository บน GitHub ของเรา
