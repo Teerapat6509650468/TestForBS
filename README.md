@@ -53,5 +53,20 @@ npx create-strapi-app@latest my-project
    - Custom (manual settings) จะเลือกฐานข้อมูลที่ต้องการได้<br>
 
 &nbsp; ในที่นี้เราเลือก "Quickstart (recommended)"
+
 5. จากนั้นจะปรากฏหน้าต่างแสดงว่า Start your 14-day free trial now! ให้เราเลือก Skip
 
+6. จากนั้นให้รันคำสั่งต่อไปนี้<br>
+```
+cd my-project
+```
+
+```
+npm install
+```
+
+```
+npx run develop
+```
+### แหล่งอ้างอิง
+- [Installing from CLI](https://docs.strapi.io/dev-docs/installation/cli)
