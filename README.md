@@ -41,37 +41,17 @@ npm -v
 ```
 *หมายเหตุ: หากเลือกใช้ npm จะต้องเป็น v6 หรือสูงกว่า*
 
-**ขั้นตอนสร้าง Strapi project**
+**ขั้นตอนการสร้างโปรเจคของ Strapi**
+1. เปืด Terminal
+2. cd ไปยังโฟลเดอร์ที่ต้องการ
+3. จากนั้นให้รันคำสั่งต่อไปนี้
+```
+npx create-strapi-app@latest my-project
+```
+4. เลือกประเภทการติดตั้ง
+   - Quickstart (recommended) จะใช้ฐานข้อมูลเริ่มต้น (SQLite)
+   - Custom (manual settings) จะเลือกฐานข้อมูลที่ต้องการได้<br>
 
+&nbsp; ในที่นี้เราเลือก "Quickstart (recommended)"
+5. จากนั้นจะปรากฏหน้าต่างแสดงว่า Start your 14-day free trial now! ให้เราเลือก Skip
 
-
-### แหล่งอ้างอิง
-[Strapi APIs to access your content](https://docs.strapi.io/dev-docs/api/content-api)<br>
-[Introduction to the Content-type Builder](https://docs.strapi.io/user-docs/content-type-builder)<br>
-[Introduction to the Content Manager](https://docs.strapi.io/user-docs/content-manager)<br>
-[Managing content-types](https://docs.strapi.io/user-docs/content-type-builder/managing-content-types)<br>
-
-
-
-- [Project Overview](#project-overview)
-- [Technologies Used](#technologies-used)
-- [Setup Instructions](#setup-instructions)
-- [Deployment Steps](#deployment-steps)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [Contracting](#Contracting)
-- [License](#license)
-
-## Technologies Used
-
-## Setup Instructions
-
-## Deployment Steps
-
-## Troubleshooting
-
-## Contributing
-
-## Contracting
-
-## License
