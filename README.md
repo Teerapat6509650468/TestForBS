@@ -70,3 +70,6 @@ npx run develop
 ```
 ### แหล่งอ้างอิง
 - [Installing from CLI](https://docs.strapi.io/dev-docs/installation/cli)
+
+## นำโค้ดขึ้นลง GitHub
+
