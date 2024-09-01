@@ -78,5 +78,10 @@ npx run develop
 4. เรียกใช้คำสั่ง `git commit -m "Initial commit"` เพื่อสร้างคอมมิตที่มีการเปลี่ยนแปลงที่เพิ่มเข้ามาทั้งหมด
 5. เข้าสู่ระบบบัญชี GitHub ของคุณและสร้าง repository ใหม่
 6. กลับไปที่เทอร์มินัลและ push local repository ในเครื่องเราลง GitHub:
-   a. เรียกใช้คำสั่งที่คล้ายกับต่อไปนี้: `git remote add origin https://github.com/Teerapat6509650468/CS360-Strapi-6509650468.git`
-   b. รันคำสั่ง `git push --set-upstream origin main` เพื่อส่งการคอมมิตไปยัง repository บน GitHub ของเรา
+   - เรียกใช้คำสั่งที่คล้ายกับต่อไปนี้: `git remote add origin https://github.com/Teerapat6509650468/CS360-Strapi-6509650468.git` โดยเปลี่ยนส่วน `https://github.com/Teerapat6509650468/CS360-Strapi-6509650468.git` เป็นลิ้งก์ repository ของเราแทน
+   - รันคำสั่ง `git push --set-upstream origin main` เพื่อส่งการคอมมิตไปยัง repository บน GitHub ของเรา
+  
+### แหล่งอ้างอิง
+- [Installing from CLI](https://docs.strapi.io/dev-docs/installation/cli)
+
+
